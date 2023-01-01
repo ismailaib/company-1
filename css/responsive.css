@@ -1,0 +1,112 @@
+@media screen and (max-width: 1024px) {
+    .hero {
+        display: flex;
+        align-items: center;
+        background: #3a055d;
+        flex-direction: column;
+    }
+    .hero-content {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .hero-img img {
+        width: 100%;
+    }
+    .features-cat {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .right-cat {
+        min-height: 22rem;
+    }
+    .data {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .solution {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+    }
+    .solution-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+  }
+
+@media screen and (max-width: 1300px) {
+    .digital {
+        display: none;
+    }
+    .digital-2 {
+        background: #3a055d;
+        height: fit-content;
+    }
+    .digital-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4rem;
+    }
+    .cat-1 , .cat-2 , .cat-3 , .cat-4 {
+        background: white;
+        width: 50%;
+        height: 100%;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #197dd4;
+    }
+    #digital-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #solution-2 {
+        display: flex;
+        flex-direction: column;
+    }
+    #solution-2 .solution-content {
+        text-align: center;
+    }
+    #solution-2 .solution-img {
+        width: 100%;
+        transform: none;
+    }
+    .solution #img-2 {
+        width: 100%;
+        transform: none;
+    }
+    .side-1 #img-1 {
+        display: none;
+    }
+    .process {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact .cards {
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-width: 1300px) {
+    .digital-2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .analitics {
+        display: none;
+    }
+}
